@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.col-12{
+    grid-column: span 12;
+}
+.col-6{
+    grid-column: span 6;
+}
+.col-4{
+    grid-column: span 4;
+}
+.col-3{
+    grid-column: span 3;
+}
+.col-2{
+    grid-column: span 2;
+}
+.col-1{
+    grid-column: span 1;
+}
+.hcard-builder{
+     grid-column: span 6;
+}
+.hcard-preview{
+     grid-column: span 6;
+    background-color: #dde0e3;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+
+}
+@media screen and (max-width: 800px) {
+  .hcard-builder {
+    grid-column: span 12;
+  }
+  .hcard-preview {
+    grid-column: span 12;
+  }
+}

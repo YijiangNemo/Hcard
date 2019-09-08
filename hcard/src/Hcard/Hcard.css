@@ -1,0 +1,29 @@
+.hcard-form{
+    min-width: 360px;
+    padding: 2vw;
+
+}
+
+.form-action{
+
+    display: flex;
+}
+.hcard-title{
+
+    font-size: 28px;
+    color: #2c3e50;
+    font-family: "Merriweather Sans";
+    font-weight: 800;
+    margin:0px;
+}
+.hcard-sub-title{
+    border-bottom: 1px solid  #b0b8bc;
+    font-size: 10px;
+    margin-right: 24px;
+    color: #b0b8bc;
+    font-family: "Merriweather Sans";
+    font-weight: 700;
+}
+.form-action{
+    margin-top:24px
+}
